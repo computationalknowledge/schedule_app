@@ -1,0 +1,57 @@
+{
+  "name": "app_agendamentos",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^2.5.0",
+    "@react-native-community/datetimepicker": "2.3.2",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-navigation/bottom-tabs": "^5.4.4",
+    "@react-navigation/native": "^5.3.2",
+    "@react-navigation/stack": "^5.3.5",
+    "axios": "^0.18.1",
+    "cors": "^2.8.5",
+    "firebase": "6.1.0",
+    "moment": "2.25.1",
+    "react": "16.9.0",
+    "react-native": "0.61.5",
+    "react-native-action-button": "^2.8.5",
+    "react-native-calendars": "1.265.0",
+    "react-native-draggable-calendar": "1.0.2",
+    "react-native-elements": "1.1.0",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-material-kit": "^0.6.0-beta.1",
+    "react-native-numeric-input": "^1.6.5",
+    "react-native-reanimated": "^1.8.0",
+    "react-native-safe-area-context": "^1.0.0",
+    "react-native-screens": "^2.7.0",
+    "react-native-swipe-list-view": "^3.2.3",
+    "react-native-vector-icons": "6.3.0",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "uuid-v4": "^0.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.8.4",
+    "@babel/runtime": "7.8.4",
+    "@react-native-community/eslint-config": "0.0.5",
+    "babel-jest": "24.9.0",
+    "eslint": "6.8.0",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.56.4",
+    "react-test-renderer": "16.9.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
